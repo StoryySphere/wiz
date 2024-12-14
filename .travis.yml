@@ -1,6 +1,6 @@
 language: python
 dist: focal
-python:
+python: 
   - "3.10"
 before_install:
   # Update system and install required packages
