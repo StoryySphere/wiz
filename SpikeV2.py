@@ -23,13 +23,13 @@ logger = logging.getLogger(__name__)
 MONGO_URI = 'mongodb+srv://harry:Sachdeva@cluster1.b02ct.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1'
 client = MongoClient(MONGO_URI)
 db = client['Harvinder']
-users_collection = db['harshu']
-settings_collection = db['settingsharshhu']  # A new collection to store global settings
-redeem_codes_collection = db['redeem_code-harshu']
+users_collection = db['wiz']
+settings_collection = db['settingswiz']  # A new collection to store global settings
+redeem_codes_collection = db['redeem_code-wiz']
 
 # Bot Configuration
-TELEGRAM_BOT_TOKEN = '7037736974:AAHswyssgBFX_eR9cXiAT-vTQo6XyWLwBL8'
-ADMIN_USER_ID = 6026912464  # Replace with your admin user ID
+TELEGRAM_BOT_TOKEN = '7846890337:AAG0_l1TSG8XK8H8H37zCcL2IAzkUSbk0jo'
+ADMIN_USER_ID = 761789522  # Replace with your admin user ID
 
 # Cooldown dictionary and user attack history
 cooldown_dict = {}
